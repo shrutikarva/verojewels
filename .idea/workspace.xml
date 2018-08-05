@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d57fe219-6f91-44c1-917d-6b0854b1fbf4" name="Default" comment="" />
+    <list default="true" id="d57fe219-6f91-44c1-917d-6b0854b1fbf4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/verojewels/production.py" beforeDir="false" afterPath="$PROJECT_DIR$/verojewels/production.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +51,8 @@
       <file leaf-file-name="production.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/verojewels/production.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-366">
-              <caret line="104" column="40" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="40" />
+            <state relative-caret-position="272">
+              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
               <folding>
                 <element signature="e#311#320#0" expanded="true" />
               </folding>
@@ -90,6 +92,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>mysite</find>
+      <find>stat</find>
+      <find>BASE_DIR</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -112,8 +116,8 @@
         <option value="$PROJECT_DIR$/products/templates/products/home.html" />
         <option value="$PROJECT_DIR$/verojewels/settings.py" />
         <option value="$PROJECT_DIR$/verojewels/wsgi.py" />
-        <option value="$PROJECT_DIR$/verojewels/production.py" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/verojewels/production.py" />
       </list>
     </option>
   </component>
@@ -136,11 +140,6 @@
               <item name="verojewels" type="b2602c69:ProjectViewProjectNode" />
               <item name="verojewels" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="verojewels" type="b2602c69:ProjectViewProjectNode" />
-              <item name="verojewels" type="462c0819:PsiDirectoryNode" />
-              <item name="verojewels" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -154,6 +153,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Dev\cfehome\verojewels" />
+      <recent name="C:\Dev\cfehome\verojewels\verojewels" />
       <recent name="C:\Dev\cfehome\verojewels\products" />
     </key>
   </component>
@@ -340,8 +340,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/verojewels/production.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-366">
-          <caret line="104" column="40" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="40" />
+        <state relative-caret-position="272">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
           <folding>
             <element signature="e#311#320#0" expanded="true" />
           </folding>
