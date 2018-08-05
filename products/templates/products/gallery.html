@@ -1,0 +1,50 @@
+{% extends "products/base.html" %}
+{% load static %}
+{% block header %}
+    <link rel="stylesheet" href="{% static 'css/gallery-grid.css' %}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+{% endblock header %}
+
+{% block content %}
+    <div class="container ">
+    <div class="jumbotron jumbotron-sm" style="background-color:#778899;margin-top:2%;color:white;">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <h3 class=" headings" style="margin-top:-2%">
+
+                    Gallery
+                </h3>
+
+
+            </div>
+        </div>
+        </div>
+
+
+
+    <div class="tz-gallery">
+
+        <div class="row">
+             {% for i in image_list %}
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../../images/{{ i.article_image }}">
+                    <img src="../../images/{{ i.article_image }}" alt="jewellery">
+                </a>
+            </div>
+                    {% endfor %}
+
+
+        </div>
+
+    </div>
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+
+{% endblock content %}
+
+

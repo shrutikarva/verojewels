@@ -1,0 +1,33 @@
+
+{% extends "products/base.html" %}
+{% load static %}
+{% block content %}
+<div class="container">
+    <div class="jumbotron jumbotron-sm" style="background-color:#778899;margin-top:2%;color:white;">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <h3 class=" headings" style="margin-top:-2%">
+                {{ ptype }}
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        {% for i in details %}
+        <div class="row border border-light shadow-sm p-3 mb-5 bg-white rounded">
+            <div class="col">
+                <img src="../../images/{{ i.article_image }}" width=200, height=200 , max-height=200 class="img-fluid zoom rounded img-thumbnail">
+            </div>
+            <div class="col-9">
+                <a href="" ><h5><u>{{ i.article_name }}</u></h5></a>
+                <p>{{ i.date }}</p>
+                <p> {{ i.article_desc }}</p>
+            </div>
+
+
+        </div>
+        {% endfor %}
+
+    </div>
+</div>
+{% endblock content %}
