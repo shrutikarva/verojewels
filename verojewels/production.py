@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import os
-import dj_database_url
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -104,7 +103,7 @@ DATABASES = {
         'PORT': '',
     }
 }
-
+import dj_database_url
 db_from_env =dj_database_url.config()
 DATABASES['default'].update(db_from_env)
 # Password validation
