@@ -29,7 +29,7 @@ STATICFILES_DIRS = (
 SECRET_KEY = '=-5scitfify0!0mxkdk74$*+b16h_jkkpw+*xw1-w+n&_a@ppz'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
 
@@ -79,15 +79,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'verojewels.wsgi.application'
 
-CORS_REPLACE_HTTPS_REFERER= True
-HOST_SCHEME= "https://"
-SECURE_PROXY_SSL_HEADER= ('HTTP_X_FORWARDED_PROTO', 'https')
-SECURE_SSL_REDIRECT= True
-SESSION_COOKIE_SECURE= True
-CSRF_COOKIE_SECURE= True
-SECURE_HSTS_INCLUDE_SUBDOMAINS= True
-SECURE_HSTS_SECONDS= 1000000
-SECURE_FRAME_DENY= True
+
 
 
 # Database
