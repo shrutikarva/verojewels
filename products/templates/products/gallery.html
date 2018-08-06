@@ -28,7 +28,7 @@
              {% for i in image_list %}
             <div class="col-sm-6 col-md-4">
                 <a class="lightbox" href="../../images/{{ i.article_image }}">
-                    <img src="../../images/{{ i.article_image }}" alt="jewellery">
+                    <img src="{{ i.article_image }}" alt="jewellery">
                 </a>
             </div>
                     {% endfor %}
