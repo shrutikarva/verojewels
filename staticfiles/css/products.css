@@ -1,0 +1,87 @@
+.headings{
+   font-family: cursive;
+}
+h5{
+color: grey;
+  font-family:  serif;
+  font-size: 1.5em;
+  font-weight: normal;
+  font-style: italic;
+  letter-spacing: 0.1em;
+}
+em::before,
+em::after {
+  content: "§";
+  color: red;
+  display: inline-block;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  opacity: 0.8;
+  margin: 0 0.6em;
+  font-size: 0.5em;
+}
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+.mybox{
+  color: #3c3c3c;
+
+
+}
+
+.headertext { color: black;
+font-family:  Bradley Hand, cursive;
+font-size: 40px; font-weight: bold;
+ text-shadow: 1px 1px 1px #082b34; }
+
+
+ .footer {
+ position:fixed
+ left: 0;
+   bottom: 0;
+   width: 100%;;
+
+  padding-top:20px;
+} /* .push must be the same height as .footer */
+
+.zoom {
+    transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.gal_zoom{
+transition: transform .2s;
+}
+
+.gal_zoom:hover {
+    transform: scale(2.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.about{
+
+
+}
+a.deco-none {
+    color:red !important;
+    text-decoration:none;
+
+}
+a{
+    color: #989696;}
+a:hover{
+text-decoration:none;
+color:#6A6767;
+    }
+
+
+
+.clickable {
+    cursor:pointer;
+}
