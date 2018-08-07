@@ -1,3 +1,7 @@
+.container-fluid{
+    width: 100%;
+    margin: 0 auto;
+}
 .headings{
    font-family: cursive;
 }
@@ -43,7 +47,7 @@ font-size: 40px; font-weight: bold;
  position:fixed
  left: 0;
    bottom: 0;
-   width: 100%;;
+   width: 100%;
 
   padding-top:20px;
 } /* .push must be the same height as .footer */
