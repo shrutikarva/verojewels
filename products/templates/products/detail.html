@@ -1,6 +1,9 @@
 
 {% extends "products/base.html" %}
 {% load static %}
+{% block title %}
+{{ ptype }}
+{% endblock title %}
 {% block content %}
 <div class="container">
     <div class="jumbotron jumbotron-sm" style="background-color:#778899;margin-top:2%;color:white;">
@@ -16,7 +19,7 @@
         {% for i in details %}
         <div class="row border border-light shadow-sm p-3 mb-5 bg-white rounded">
             <div class="col">
-                <img src="../../images/{{ i.article_image }}" width=200, height=200 , max-height=200 class="img-fluid zoom rounded img-thumbnail">
+                <img src="{{ i.article_image.url }}" width=200, height=200 , max-height=200 class="img-fluid zoom rounded img-thumbnail">
             </div>
             <div class="col-9">
                 <a href="" ><h5><u>{{ i.article_name }}</u></h5></a>

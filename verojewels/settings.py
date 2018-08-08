@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import os
+import cloudinary
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -37,6 +38,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+'cloudinary',
 'products.apps.ProductsConfig',
     'bootstrap3',
     'django.contrib.admin',
@@ -77,6 +79,12 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'verojewels.wsgi.application'
+
+cloudinary.config(
+    cloud_name = "verojewels",
+    api_key = "692658237971668",
+    api_secret = "U1XoxohCE1OfeyAmWIyIsOH-Ppo"
+)
 
 
 # Database

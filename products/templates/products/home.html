@@ -1,9 +1,8 @@
 
 {% extends "products/base.html" %}
 {% load static %}
-<head>
-
-  </head>
+{% load cloudinary %}
+{% block title %} Verojewels {% endblock title %}
 {% block content %}
 <div class="container-fluid">
 <div class="row d-block text-center">
@@ -58,7 +57,7 @@
   <div class="col border border-light shadow-sm p-3 mb-5 bg-white rounded text-center">
     <a href="/products/{{ item }}">
 <figure class="figure">
-    <img src="../../images/{{ item.cover_img }}" width=200, height=200 , max-height=200 class="figure-img img-fluid rounded img-thumbnail">
+    <img src="{{ item.cover_img.url }}" width=200, height=200 , max-height=200 class="figure-img img-fluid rounded img-thumbnail">
   <figcaption class="figure-caption text-center ">{{ item }}</figcaption>
 </figure></a>
     </div>

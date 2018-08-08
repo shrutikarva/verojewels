@@ -47,7 +47,8 @@ font-size: 40px; font-weight: bold;
  position:fixed
  left: 0;
    bottom: 0;
-   width: 100%;;
+   width: 100%;
+   color: black;
 
   padding-top:20px;
 } /* .push must be the same height as .footer */
@@ -89,3 +90,32 @@ color:#6A6767;
 .clickable {
     cursor:pointer;
 }
+
+
+
+
+
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #3B5998;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+
+}
+.fa-instagram {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #125688;
+}
+.fa-instagram:hover {
+    background-color: #3d5b99;
