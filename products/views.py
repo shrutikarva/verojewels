@@ -45,7 +45,7 @@ def product_enquiry(request,ptype,pid):
             phone = form.cleaned_data['phone']
             message = 'Message received from: ' + str(phone)+'\n' + str(spec_product.article_name)+ '\n'+form.cleaned_data['message'] + '\n'
             try:
-                send_mail(subject, message, from_email, ['shruti.karva@gmail.com'])
+                send_mail(subject, message, from_email, ['shruti.karva@gmail.com','jain.punya01@gmail.com','jainvirang@gmail.com'])
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             messages.success(request, 'Message sent. You will be contacted soon. Meanwhile have a look at other designs.')

@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d57fe219-6f91-44c1-917d-6b0854b1fbf4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/templates/products/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/products/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/templates/products/enquiry.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/products/enquiry.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/verojewels/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/verojewels/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,10 +37,34 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/products/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="50" column="120" selection-start-line="50" selection-start-column="120" selection-end-line="50" selection-end-column="120" />
+            <state relative-caret-position="342">
+              <caret line="47" column="128" selection-start-line="47" selection-start-column="128" selection-end-line="47" selection-end-column="128" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/verojewels/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="148" lean-forward="true" selection-start-line="142" selection-end-line="148" />
+              <folding>
+                <element signature="e#311#320#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/verojewels/production.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="157" selection-start-line="157" selection-end-line="157" />
+              <folding>
+                <element signature="e#311#320#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,7 +119,6 @@
         <option value="$PROJECT_DIR$/products/templates/products/contactus.html" />
         <option value="$PROJECT_DIR$/products/templates/products/home.html" />
         <option value="$PROJECT_DIR$/products/migrations/0001_initial.py" />
-        <option value="$PROJECT_DIR$/verojewels/production.py" />
         <option value="$PROJECT_DIR$/products/templates/products/aboutus.html" />
         <option value="$PROJECT_DIR$/staticfiles/css/products.css" />
         <option value="$PROJECT_DIR$/static/css/products.css" />
@@ -109,6 +128,7 @@
         <option value="$PROJECT_DIR$/products/forms.py" />
         <option value="$PROJECT_DIR$/products/templates/products/enquiry.html" />
         <option value="$PROJECT_DIR$/products/templates/products/detail.html" />
+        <option value="$PROJECT_DIR$/verojewels/production.py" />
         <option value="$PROJECT_DIR$/products/views.py" />
       </list>
     </option>
@@ -427,16 +447,6 @@
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/verojewels/production.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-588">
-          <caret line="88" column="1" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
-          <folding>
-            <element signature="e#311#320#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/staticfiles/css/products.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -475,16 +485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verojewels/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="147" column="61" selection-start-line="147" selection-start-column="61" selection-end-line="147" selection-end-column="61" />
-          <folding>
-            <element signature="e#311#320#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -529,10 +529,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/verojewels/production.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
+          <folding>
+            <element signature="e#311#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verojewels/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="148" lean-forward="true" selection-start-line="142" selection-end-line="148" />
+          <folding>
+            <element signature="e#311#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/products/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="50" column="120" selection-start-line="50" selection-start-column="120" selection-end-line="50" selection-end-column="120" />
+        <state relative-caret-position="342">
+          <caret line="47" column="128" selection-start-line="47" selection-start-column="128" selection-end-line="47" selection-end-column="128" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>
