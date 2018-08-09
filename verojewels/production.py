@@ -27,7 +27,7 @@ STATICFILES_DIRS = (
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '=-5scitfify0!0mxkdk74$*+b16h_jkkpw+*xw1-w+n&_a@ppz'
+SECRET_KEY = os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -149,9 +149,9 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
-EMAIL_HOST_USER = 'apikey'
+EMAIL_HOST_USER =  os.environ['SENDGRID_USERNAME']
 EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_PASSWORD = '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'
+EMAIL_HOST_PASSWORD = os.environ['SENDGRID_PASSWORD']
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
