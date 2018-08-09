@@ -28,6 +28,9 @@ def product_details(request,ptype):
 
     return render(request,'products/detail.html',{'details':details,'ptype':ptype})
 
+def product_enquiry(request,ptype,pid):
+    return render(request,'products/enquiry.html')
+
 def products(request):
     return render(request,'products/detail.html')
 

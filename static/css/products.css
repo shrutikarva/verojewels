@@ -103,6 +103,8 @@ color:#6A6767;
     -webkit-transition:.5s;
     transition: .5s;
     background-color: #3B5998;
+    color: white;
+    border-radius: 5px;
 }
 .fa-facebook:hover {
     background-color: #3d5b99;
@@ -115,7 +117,9 @@ color:#6A6767;
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: #125688;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
 }
 .fa-instagram:hover {
     background-color: #3d5b99;
