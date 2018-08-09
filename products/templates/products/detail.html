@@ -2,6 +2,7 @@
 {% extends "products/base.html" %}
 {% load static %}
 {% block title %}
+{% load cloudinary %}
 {{ ptype }}
 {% endblock title %}
 {% block content %}
@@ -15,6 +16,14 @@
             </div>
         </div>
     </div>
+    {% if messages %}
+<ul class="messages">
+    {% for message in messages %}
+    <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+
     <div class="container">
         {% for i in details %}
         <div class="row border border-light shadow-sm p-3 mb-5 bg-white rounded">
@@ -22,7 +31,7 @@
                 <img src="{{ i.article_image.url }}" width=200, height=200 , max-height=200 class="img-fluid zoom rounded img-thumbnail">
             </div>
             <div class="col-9">
-                <a href="" ><h5><u>{{ i.article_name }}</u></h5></a>
+                <a href="/products/{{ ptype }}/{{ i.id }}" ><h5><u>{{ i.article_name }}</u></h5></a>
                 <p>{{ i.date }}</p>
                 <p> {{ i.article_desc }}</p>
             </div>
