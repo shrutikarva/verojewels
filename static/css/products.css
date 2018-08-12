@@ -123,3 +123,32 @@ color:#6A6767;
 }
 .fa-instagram:hover {
     background-color: #3d5b99;
+
+.thumbnail
+{
+    height : 150px;
+    width : 150px;
+    max-height : 150px;
+}
+
+#loader  {
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: #0f2338;
+ z-index: 99;
+height: 100%;
+}
+#status  {
+ width: 200px;
+ height: 200px;
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ background-image: url("https://www.google.ca/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png");
+ background-repeat: no-repeat;
+ background-position: center;
+ margin: -100px 0 0 -100px;
+}

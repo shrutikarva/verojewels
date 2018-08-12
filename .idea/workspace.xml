@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d57fe219-6f91-44c1-917d-6b0854b1fbf4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/templates/products/enquiry.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/products/enquiry.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/verojewels/production.py" beforeDir="false" afterPath="$PROJECT_DIR$/verojewels/production.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/templates/products/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/products/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/templates/products/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/products/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/templates/products/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/products/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/products.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/css/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/css/products.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,70 +19,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="enquiry.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/products/templates/products/enquiry.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#!!top" />
-                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/products/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/products/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="47" column="128" selection-start-line="47" selection-start-column="128" selection-end-line="47" selection-end-column="128" />
-              <folding>
-                <element signature="e#0#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/verojewels/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="144" column="92" selection-start-line="144" selection-start-column="23" selection-end-line="144" selection-end-column="92" />
-              <folding>
-                <element signature="e#311#320#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="production.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/verojewels/production.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-              <folding>
-                <element signature="e#311#320#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/products/templates/products/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="240">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/products.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="153" column="1" selection-start-line="153" selection-start-column="1" selection-end-line="153" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/products/templates/products/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/products/templates/products/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1584">
+              <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preloader.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/js/preloader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -121,25 +102,25 @@
         <option value="$PROJECT_DIR$/products/models.py" />
         <option value="$PROJECT_DIR$/products/templates/products/gallery.html" />
         <option value="$PROJECT_DIR$/products/templates/products/contactus.html" />
-        <option value="$PROJECT_DIR$/products/templates/products/home.html" />
         <option value="$PROJECT_DIR$/products/migrations/0001_initial.py" />
         <option value="$PROJECT_DIR$/products/templates/products/aboutus.html" />
-        <option value="$PROJECT_DIR$/staticfiles/css/products.css" />
-        <option value="$PROJECT_DIR$/static/css/products.css" />
-        <option value="$PROJECT_DIR$/products/templates/products/base.html" />
         <option value="$PROJECT_DIR$/products/urls.py" />
         <option value="$PROJECT_DIR$/products/forms.py" />
-        <option value="$PROJECT_DIR$/products/templates/products/detail.html" />
         <option value="$PROJECT_DIR$/products/views.py" />
         <option value="$PROJECT_DIR$/verojewels/settings.py" />
         <option value="$PROJECT_DIR$/verojewels/production.py" />
         <option value="$PROJECT_DIR$/products/templates/products/enquiry.html" />
+        <option value="$PROJECT_DIR$/products/templates/products/detail.html" />
+        <option value="$PROJECT_DIR$/products/templates/products/home.html" />
+        <option value="$PROJECT_DIR$/staticfiles/css/products.css" />
+        <option value="$PROJECT_DIR$/static/css/products.css" />
+        <option value="$PROJECT_DIR$/products/templates/products/base.html" />
+        <option value="$PROJECT_DIR$/static/js/preloader.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="2" />
-    <option name="width" value="1918" />
+    <option name="width" value="1921" />
     <option name="height" value="975" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -159,7 +140,72 @@
             <path>
               <item name="verojewels" type="b2602c69:ProjectViewProjectNode" />
               <item name="verojewels" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="verojewels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="verojewels" type="462c0819:PsiDirectoryNode" />
               <item name="products" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="verojewels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="verojewels" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="verojewels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="verojewels" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="verojewels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="verojewels" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="verojewels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="verojewels" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="verojewels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="verojewels" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="verojewels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="verojewels" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="verojewels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="verojewels" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="verojewels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="verojewels" type="462c0819:PsiDirectoryNode" />
+              <item name="staticfiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="verojewels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="verojewels" type="462c0819:PsiDirectoryNode" />
+              <item name="staticfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="verojewels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="verojewels" type="462c0819:PsiDirectoryNode" />
+              <item name="staticfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="verojewels" type="b2602c69:ProjectViewProjectNode" />
@@ -211,10 +257,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="2" width="1416" height="720" extended-state="0" />
+    <frame x="0" y="0" width="1418" height="720" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2489301" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2485755" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -237,24 +283,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/products/templates/products/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/templates/products/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/products.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -424,20 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/templates/products/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -451,30 +465,6 @@
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/staticfiles/css/products.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="121" column="19" lean-forward="true" selection-end-line="124" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/products.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="124" column="30" selection-start-line="124" selection-start-column="30" selection-end-line="124" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/templates/products/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1328">
-          <caret line="83" column="101" selection-start-line="83" selection-start-column="101" selection-end-line="83" selection-end-column="101" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/products/templates/products/aboutus.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -484,13 +474,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/products/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/templates/products/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/verojewels/urls.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -503,9 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -516,16 +496,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/products/templates/products/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/products/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="640">
           <caret line="47" column="128" selection-start-line="47" selection-start-column="128" selection-end-line="47" selection-end-column="128" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
@@ -535,7 +508,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/verojewels/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
+        <state relative-caret-position="2288">
           <caret line="144" column="92" selection-start-line="144" selection-start-column="23" selection-end-line="144" selection-end-column="92" />
           <folding>
             <element signature="e#311#320#0" expanded="true" />
@@ -545,7 +518,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/verojewels/production.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
+        <state relative-caret-position="448">
           <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
           <folding>
             <element signature="e#311#320#0" expanded="true" />
@@ -555,13 +528,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/products/templates/products/enquiry.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
+        <state relative-caret-position="352">
           <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
           <folding>
             <element signature="n#div#0;n#div#0;n#!!top" />
             <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/templates/products/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/staticfiles/css/gallery-grid.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/templates/products/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/templates/products/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/staticfiles/css/products.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="153" column="1" selection-start-line="153" selection-start-column="1" selection-end-line="153" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/templates/products/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/products.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="153" column="1" selection-start-line="153" selection-start-column="1" selection-end-line="153" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/preloader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>

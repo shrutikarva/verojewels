@@ -27,10 +27,11 @@
     <div class="container">
         {% for i in details %}
         <div class="row border border-light shadow-sm p-3 mb-5 bg-white rounded">
-            <div class="col">
-                <img src="{{ i.article_image.url }}" width=200, height=200 , max-height=200 class="img-fluid zoom rounded img-thumbnail">
+            <div class="col-md-3">
+
+                <img src="{{ i.article_image.url }}" class="mw-100 mh-100 img-thumbnail img-fluid figure-img zoom rounded ">
             </div>
-            <div class="col-9">
+            <div class="col-md-9">
                 <a href="/products/{{ ptype }}/{{ i.id }}" ><h5><u>{{ i.article_name }}</u></h5></a>
                 <p>{{ i.date }}</p>
                 <p> {{ i.article_desc }}</p>
