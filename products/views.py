@@ -11,7 +11,23 @@ def index(request):
     return render(request,'products/base.html')
 
 def home(request):
-    return render(request,'products/home.html')
+    if request.method == 'GET':
+        form = ContactForm()
+    else:
+        form = ContactForm(request.POST)
+        if form.is_valid():
+            subject = 'From verojewels website'+form.cleaned_data['subject']
+            from_email = form.cleaned_data['email']
+            phone = form.cleaned_data['phone']
+            message = 'Message received from: ' + str(phone)+'\n'+form.cleaned_data['message'] + '\n'
+            try:
+                send_mail(subject, message, from_email, ['shruti.karva@gmail.com','jain.punya01@gmail.com','jainvirang@gmail.com'])
+            except BadHeaderError:
+                return HttpResponse('Invalid header found.')
+            messages.success(request, 'Message sent. You will be contacted soon. Meanwhile have a look at our designs.')
+            return redirect('/')
+
+    return render(request,'products/home.html',{'form':form})
 
 def contact(request):
     return render(request,'products/contactus.html')
@@ -40,8 +56,8 @@ def product_enquiry(request,ptype,pid):
     else:
         form = ContactForm(request.POST)
         if form.is_valid():
-            subject = form.cleaned_data['subject']
-            from_email = form.cleaned_data['from_email']
+            subject = 'From verojewels website'+form.cleaned_data['subject']
+            from_email = form.cleaned_data['email']
             phone = form.cleaned_data['phone']
             message = 'Message received from: ' + str(phone)+'\n' + str(spec_product.article_name)+ '\n'+form.cleaned_data['message'] + '\n'
             try:
